@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/bottom_navbar.dart';
 import 'package:flutter_application_1/discover.dart';
 import 'package:flutter_application_1/home_screen.dart';
 import 'package:flutter_application_1/splash_screen.dart';
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const Discover(),
+      home: const BottomNavbar(),
     );
   }
 }
