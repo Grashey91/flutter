@@ -8,12 +8,14 @@ import 'package:flutter_application_1/search.dart';
 
 class BottomNavbar extends StatefulWidget {
   const BottomNavbar({super.key});
+  
 
   @override
   State<BottomNavbar> createState() => _BottomNavbarState();
 }
 
 class _BottomNavbarState extends State<BottomNavbar> {
+  
   int pageIndex = 0;
   List<Widget> pageList = <Widget>[HomePage(), Search(), Chat(), Profile()];
   @override
@@ -24,6 +26,7 @@ class _BottomNavbarState extends State<BottomNavbar> {
         backgroundColor: Colors.amber[200],
         selectedItemColor: Colors.orange[900],
         unselectedItemColor: Colors.grey[800],
+        currentIndex: pageIndex,
         onTap: (value) {
           setState(() {
             pageIndex = value;
@@ -31,7 +34,7 @@ class _BottomNavbarState extends State<BottomNavbar> {
         },
         type: BottomNavigationBarType.fixed,
         items: [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home',),
           BottomNavigationBarItem(icon: Icon(Icons.search), label: 'search'),
           BottomNavigationBarItem(icon: Icon(Icons.chat), label: 'chat'),
           BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),
