@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:mantra_app/home.dart';
 import 'package:mantra_app/login.dart';
+import 'package:mantra_app/navbar.dart';
+import 'package:mantra_app/offer_and_cashback.dart';
 import 'package:mantra_app/practice.dart';
 import 'package:mantra_app/select_language.dart';
+import 'package:mantra_app/splash_screen.dart';
 import 'package:mantra_app/verification.dart';
 
 void main() {
@@ -21,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.orange,
       ),
-      home: Verification(),
+      home: Navbar(),
     );
   }
 }

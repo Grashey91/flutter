@@ -164,7 +164,7 @@ class _LoginState extends State<Login> {
                   'I am an astrologer',
                   style: GoogleFonts.hind(
                       fontSize: 19,
-                      color: Color(0xFF59B8BE),
+                      color: const Color(0xFF59B8BE),
                       fontWeight: FontWeight.w600),
                 ),
               ),
