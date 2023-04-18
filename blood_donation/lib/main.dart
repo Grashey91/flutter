@@ -1,7 +1,14 @@
 import 'package:blood_donation/create_account.dart';
 import 'package:blood_donation/create_account_two.dart';
 import 'package:blood_donation/forget_password.dart';
+<<<<<<< HEAD
 import 'package:blood_donation/otp_verification.dart';
+=======
+import 'package:blood_donation/home_page.dart';
+import 'package:blood_donation/navbar.dart';
+import 'package:blood_donation/otp_verification.dart';
+import 'package:blood_donation/sign_up.dart';
+>>>>>>> f9e7a30e61926cc15d6bd5c224e48aeeb6f182fe
 import 'package:blood_donation/splash_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -16,11 +23,19 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+<<<<<<< HEAD
+=======
+        debugShowCheckedModeBanner: false,
+>>>>>>> f9e7a30e61926cc15d6bd5c224e48aeeb6f182fe
         title: 'Flutter Demo',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
+<<<<<<< HEAD
         home: CreateAccountTwo());
+=======
+        home: SplashScreen());
+>>>>>>> f9e7a30e61926cc15d6bd5c224e48aeeb6f182fe
   }
 }
 

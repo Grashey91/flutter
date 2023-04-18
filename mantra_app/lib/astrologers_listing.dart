@@ -12,6 +12,68 @@ class AstrologersListing extends StatefulWidget {
 
 class _AstrologersListingState extends State<AstrologersListing> {
   List<String> list = ['Marriage', 'Legal', 'Health', 'Career', 'Business'];
+  List<Map<String, dynamic>> astroDetails = [
+    {
+      "astrobg": "assets/astro_bg.png",
+      "astro_prfile": "assets/employee.png",
+      "show_om_icon": true,
+      "rating": 4,
+      "astro_type": {"type": "Most Choice", "total_count": null},
+      "astro_name": "Astro Keshav M.",
+      "exp_year": 10,
+      "lang": ["Hindi", "English"],
+      "original_price": 40,
+      "astro_price": {"type": "free", "new_charge": null}
+    },
+    {
+      "astrobg": "assets/astro_bg.png",
+      "astro_prfile": "assets/employee.png",
+      "show_om_icon": false,
+      "rating": 4.99,
+      "astro_type": {"type": null, "total_count": 284},
+      "astro_name": "Astro Keshav M.",
+      "exp_year": 10,
+      "lang": ["Hindi", "English"],
+      "original_price": 40,
+      "astro_price": {"type": 'total', "new_charge": 40}
+    },
+    {
+      "astrobg": "assets/astro_bg.png",
+      "astro_prfile": "assets/employee.png",
+      "show_om_icon": true,
+      "rating": 4,
+      "astro_type": {"type": "Most Choice", "total_count": null},
+      "astro_name": "Astro Keshav M.",
+      "exp_year": 10,
+      "lang": ["Hindi", "English"],
+      "original_price": 40,
+      "astro_price": {"type": "free", "new_charge": null}
+    },
+    {
+      "astrobg": "assets/astro_bg.png",
+      "astro_prfile": "assets/employee.png",
+      "show_om_icon": true,
+      "rating": 4,
+      "astro_type": {"type": "Most Choice", "total_count": null},
+      "astro_name": "Astro Keshav M.",
+      "exp_year": 10,
+      "lang": ["Hindi", "English"],
+      "original_price": 40,
+      "astro_price": {"type": "free", "new_charge": null}
+    },
+    {
+      "astrobg": "assets/astro_bg.png",
+      "astro_prfile": "assets/employee.png",
+      "show_om_icon": true,
+      "rating": 4,
+      "astro_type": {"type": "Most Choice", "total_count": null},
+      "astro_name": "Astro Keshav M.",
+      "exp_year": 10,
+      "lang": ["Hindi", "English"],
+      "original_price": 40,
+      "astro_price": {"type": "free", "new_charge": null}
+    },
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -255,7 +317,7 @@ class _AstrologersListingState extends State<AstrologersListing> {
                         height: 95,
                         decoration: const BoxDecoration(
                             image: DecorationImage(
-                                image: AssetImage('assets/Group 1351.png'))),
+                                image: AssetImage('assets/astro_bg.png'))),
                         child: Stack(
                           children: [
                             Align(

@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+import 'package:blood_donation/create_account.dart';
+import 'package:blood_donation/sign_up.dart';
+>>>>>>> f9e7a30e61926cc15d6bd5c224e48aeeb6f182fe
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
@@ -29,6 +34,7 @@ class _SplashScreenState extends State<SplashScreen> {
               SizedBox(
                 height: 27,
               ),
+<<<<<<< HEAD
               Container(
                 height: 54,
                 width: 328,
@@ -42,6 +48,27 @@ class _SplashScreenState extends State<SplashScreen> {
                         fontSize: 16,
                         fontWeight: FontWeight.w400,
                         color: Colors.white),
+=======
+              InkWell(
+                onTap: () {
+                  Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) => CreateAccount()));
+                },
+                child: Container(
+                  height: 54,
+                  width: 328,
+                  decoration: BoxDecoration(
+                      color: Color.fromRGBO(191, 34, 43, 1),
+                      borderRadius: BorderRadius.circular(69)),
+                  child: Center(
+                    child: Text(
+                      'SIGN UP',
+                      style: GoogleFonts.roboto(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w400,
+                          color: Colors.white),
+                    ),
+>>>>>>> f9e7a30e61926cc15d6bd5c224e48aeeb6f182fe
                   ),
                 ),
               ),
@@ -56,7 +83,11 @@ class _SplashScreenState extends State<SplashScreen> {
                     borderRadius: BorderRadius.circular(69)),
                 child: Center(
                   child: Text(
+<<<<<<< HEAD
                     'SIGN UP',
+=======
+                    'LOGIN',
+>>>>>>> f9e7a30e61926cc15d6bd5c224e48aeeb6f182fe
                     style: GoogleFonts.roboto(
                         fontSize: 16,
                         fontWeight: FontWeight.w400,
