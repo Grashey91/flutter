@@ -8,6 +8,8 @@ import 'package:mantra_app/select_language.dart';
 import 'package:mantra_app/splash_screen.dart';
 import 'package:mantra_app/verification.dart';
 
+import 'astrologers_listing.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -24,23 +26,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.orange,
       ),
-      home: Navbar(),
+      home: AstrologersListing(),
     );
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({
-    super.key,
-  });
-
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  @override
-  Widget build(BuildContext context) {
-    return const Scaffold();
   }
 }

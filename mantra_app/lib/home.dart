@@ -333,9 +333,10 @@ class _HomeState extends State<Home> {
                           ],
                         ),
                       ),
+
                       //----------------------------------------------------------------------------------------------------------------------------------------------------------------
                       //                      APPBAR ROW END
-                      //---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                      //-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
                       const SizedBox(
                         height: 12,
@@ -343,33 +344,34 @@ class _HomeState extends State<Home> {
 
                       //----------------------------------------------------------------------------------------------------------------------------------------------------------------
                       //                      SEARCH BOX STARTS
-                      //---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                      //----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
                       Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 15),
                         child: Container(
-                            height: 40,
-                            decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(10),
-                                color: Colors.white),
-                            child: Row(children: [
-                              const SizedBox(
-                                width: 10,
-                              ),
-                              const Icon(
-                                Icons.search_outlined,
-                                color: Color.fromRGBO(186, 186, 186, 1),
-                              ),
-                              const SizedBox(
-                                width: 10,
-                              ),
-                              Text(
-                                'Astrologers, products,........',
-                                style: GoogleFonts.cabin(
-                                    fontSize: 16,
-                                    color: Color.fromRGBO(186, 186, 186, 1)),
-                              )
-                            ])),
+                          height: 40,
+                          decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(10),
+                              color: Colors.white),
+                          child: Row(children: [
+                            const SizedBox(
+                              width: 10,
+                            ),
+                            const Icon(
+                              Icons.search_outlined,
+                              color: Color.fromRGBO(186, 186, 186, 1),
+                            ),
+                            const SizedBox(
+                              width: 10,
+                            ),
+                            Text(
+                              'Astrologers, products,........',
+                              style: GoogleFonts.cabin(
+                                  fontSize: 16,
+                                  color: Color.fromRGBO(186, 186, 186, 1)),
+                            )
+                          ]),
+                        ),
                       ),
 
                       //----------------------------------------------------------------------------------------------------------------------------------------------------------------
