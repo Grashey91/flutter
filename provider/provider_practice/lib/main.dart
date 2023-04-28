@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:provider_practice/home.dart';
 import 'package:provider_practice/model/counter_provider.dart';
+import 'package:provider_practice/practice.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.lime,
         ),
-        home: const Home(),
+        home: const Practice(),
       ),
     );
   }
